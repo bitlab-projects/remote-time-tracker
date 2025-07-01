@@ -1,3 +1,9 @@
+# Remote Time Tracker
+
+A web app to help remote workers to track their work hours.
+
+<img src="screenshots/1.png" alt="Cerner" width="777">
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
