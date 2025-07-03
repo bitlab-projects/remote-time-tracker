@@ -78,7 +78,7 @@ const Calendar: React.FC<CalendarProps> = ({
                 >
                   <div className="flex items-center">
                     <Clock size={10} className="mr-1" />
-                    {session.startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                    {format(session.startTime, 'HH:mm')} - {format(session.endTime, 'HH:mm')}
                   </div>
                   <div className="truncate font-medium">{session.title}</div>
                 </div>
